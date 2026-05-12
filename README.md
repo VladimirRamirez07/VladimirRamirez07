@@ -87,6 +87,13 @@ I build automated testing suites, security tools and CI/CD pipelines that catch 
 ## 📌 Latest Projects
 
 <!--START_SECTION:repos-->
+| Repo | Description | Language |
+|---|---|---|
+| [VladimirRamirez07](https://github.com/VladimirRamirez07/VladimirRamirez07) | No description | N/A |
+| [security-testing-automation-suite](https://github.com/VladimirRamirez07/security-testing-automation-suite) | Automated security testing suite covering SQLi, headers, endpoints, password strength, rate limits, HTTPS & auth weaknesses. QA + Security + DevSecOps. | HTML |
+| [malware-analyzer-sandbox](https://github.com/VladimirRamirez07/malware-analyzer-sandbox) | Sandbox to analyze suspicious files using VirusTotal API, YARA rules and behavioral detection | Python |
+| [secure-password-manager](https://github.com/VladimirRamirez07/secure-password-manager) | Local AES-encrypted password manager with master password, secure generator and auto-lock. Built with Python and SQLite. | Python |
+| [vulnerable-web-app](https://github.com/VladimirRamirez07/vulnerable-web-app) | cybersecurity, web-security, xss, sql-injection, csrf, idor, broken-auth, react, nodejs, owasp | JavaScript |
 <!--END_SECTION:repos-->
 
 ---
