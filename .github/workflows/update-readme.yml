@@ -1,0 +1,60 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Cada 6 horas
+  workflow_dispatch:        # También manual si quieres
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update GitHub Activity
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: 'chore: update recent activity'
+          MAX_LINES: 5
+
+  update-repos:
+    runs-on: ubuntu-latest
+    needs: update-activity
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update Latest Repos
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { data: repos } = await github.rest.repos.listForUser({
+              username: 'VladimirRamirez07',
+              sort: 'updated',
+              per_page: 5,
+              type: 'public'
+            });
+
+            const lines = repos.map(r =>
+              `| [${r.name}](${r.html_url}) | ${r.description || 'No description'} | ${r.language || 'N/A'} |`
+            ).join('\n');
+
+            const table = `| Repo | Description | Language |\n|---|---|---|\n${lines}`;
+
+            const fs = require('fs');
+            let readme = fs.readFileSync('README.md', 'utf8');
+            readme = readme.replace(
+              /<!--START_SECTION:repos-->[\s\S]*?<!--END_SECTION:repos-->/,
+              `<!--START_SECTION:repos-->\n${table}\n<!--END_SECTION:repos-->`
+            );
+            fs.writeFileSync('README.md', readme);
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update latest repos"
+          git push

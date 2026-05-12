@@ -77,6 +77,20 @@ I build automated testing suites, security tools and CI/CD pipelines that catch 
 
 ---
 
+## 🔄 Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+---
+
+## 📌 Latest Projects
+
+<!--START_SECTION:repos-->
+<!--END_SECTION:repos-->
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
