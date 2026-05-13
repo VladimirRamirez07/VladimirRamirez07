@@ -80,6 +80,8 @@ I build automated testing suites, security tools and CI/CD pipelines that catch 
 ## 🔄 Recent Activity
 
 <!--START_SECTION:activity-->
+1. 🎉 Merged PR [#1](https://github.com/VladimirRamirez07/devsecops-security-gates/pull/1) in [VladimirRamirez07/devsecops-security-gates](https://github.com/VladimirRamirez07/devsecops-security-gates)
+2. 💪 Opened PR [#1](https://github.com/VladimirRamirez07/devsecops-security-gates/pull/1) in [VladimirRamirez07/devsecops-security-gates](https://github.com/VladimirRamirez07/devsecops-security-gates)
 <!--END_SECTION:activity-->
 
 ---
