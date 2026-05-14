@@ -6,7 +6,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Vladimir%20Ramírez-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vladimir-ramírez-303a433ba)
 [![GitHub](https://img.shields.io/badge/GitHub-VladimirRamirez07-181717?logo=github)](https://github.com/VladimirRamirez07)
-![Profile Views](https://komarev.com/ghpvc/?username=VladimirRamirez07&color=blueviolet)
 
 </div>
 
