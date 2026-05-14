@@ -91,11 +91,11 @@ I build automated testing suites, security tools and CI/CD pipelines that catch 
 <!--START_SECTION:repos-->
 | Repo | Description | Language |
 |---|---|---|
+| [zero-trust-network-monitor](https://github.com/VladimirRamirez07/zero-trust-network-monitor) | Real-time network traffic monitor with unauthorized device detection, anomaly alerts, and incident reporting dashboard. Built with Python/Scapy, FastAPI, React & PostgreSQL. | Python |
 | [phishing-url-detector](https://github.com/VladimirRamirez07/phishing-url-detector) | Real-time URL threat analyzer using VirusTotal & Google Safe Browsing APIs | CSS |
 | [VladimirRamirez07](https://github.com/VladimirRamirez07/VladimirRamirez07) | GitHub profile README with auto-updating activity and latest projects. | N/A |
 | [devsecops-security-gates](https://github.com/VladimirRamirez07/devsecops-security-gates) | CI/CD Security Pipeline with automated security gates using Semgrep, Bandit, Trivy, TruffleHog and Snyk. Blocks merges on critical vulnerabilities | Python |
 | [security-testing-automation-suite](https://github.com/VladimirRamirez07/security-testing-automation-suite) | Automated security testing suite covering SQLi, headers, endpoints, password strength, rate limits, HTTPS & auth weaknesses. QA + Security + DevSecOps. | HTML |
-| [malware-analyzer-sandbox](https://github.com/VladimirRamirez07/malware-analyzer-sandbox) | Sandbox to analyze suspicious files using VirusTotal API, YARA rules and behavioral detection | Python |
 <!--END_SECTION:repos-->
 
 ---
