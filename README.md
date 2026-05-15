@@ -90,11 +90,11 @@ I build automated testing suites, security tools and CI/CD pipelines that catch 
 <!--START_SECTION:repos-->
 | Repo | Description | Language |
 |---|---|---|
+| [network-vulnerability-scanner](https://github.com/VladimirRamirez07/network-vulnerability-scanner) | Network reconnaissance tool that scans open ports, active services and vulnerable versions, generating a professional PDF risk report. | Python |
+| [incident-response-toolkit](https://github.com/VladimirRamirez07/incident-response-toolkit) | SOC platform for real-time alert centralization, incident classification (P1-P4), case assignment, and post-mortem report generation. Built with Python, FastAPI, React, PostgreSQL, WebSockets and Docker. | Python |
 | [VladimirRamirez07](https://github.com/VladimirRamirez07/VladimirRamirez07) | GitHub profile README with auto-updating activity and latest projects. | N/A |
 | [phishing-url-detector](https://github.com/VladimirRamirez07/phishing-url-detector) | Real-time URL threat analyzer using VirusTotal & Google Safe Browsing APIs | CSS |
 | [cloud-misconfig-scanner](https://github.com/VladimirRamirez07/cloud-misconfig-scanner) | AWS cloud misconfiguration scanner - detects public S3 buckets, open security groups, unrotated IAM keys and unencrypted resources. CIS benchmark-based severity reports. | Python |
-| [zero-trust-network-monitor](https://github.com/VladimirRamirez07/zero-trust-network-monitor) | Real-time network traffic monitor with unauthorized device detection, anomaly alerts, and incident reporting dashboard. Built with Python/Scapy, FastAPI, React & PostgreSQL. | Python |
-| [devsecops-security-gates](https://github.com/VladimirRamirez07/devsecops-security-gates) | CI/CD Security Pipeline with automated security gates using Semgrep, Bandit, Trivy, TruffleHog and Snyk. Blocks merges on critical vulnerabilities | Python |
 <!--END_SECTION:repos-->
 
 ---
