@@ -90,9 +90,9 @@ I build automated testing suites, security tools and CI/CD pipelines that catch 
 <!--START_SECTION:repos-->
 | Repo | Description | Language |
 |---|---|---|
+| [VladimirRamirez07](https://github.com/VladimirRamirez07/VladimirRamirez07) | GitHub profile README with auto-updating activity and latest projects. | N/A |
 | [microservices-cdc-testing-suite](https://github.com/VladimirRamirez07/microservices-cdc-testing-suite) | Consumer-Driven Contract Testing suite for microservices using Pact.io, integrated with Pact Broker and GitHub Actions CI/CD pipeline. | Python |
 | [visual-accessibility-testing-suite](https://github.com/VladimirRamirez07/visual-accessibility-testing-suite) | Automated visual regression & WCAG 2.1/2.2 accessibility testing suite using Playwright, Axe-Core, Resemble.js and Applitools | JavaScript |
-| [VladimirRamirez07](https://github.com/VladimirRamirez07/VladimirRamirez07) | GitHub profile README with auto-updating activity and latest projects. | N/A |
 | [dynamic-test-data-orchestrator](https://github.com/VladimirRamirez07/dynamic-test-data-orchestrator) | Service that dynamically seeds, cleans and prepares databases before each test suite — SQL/NoSQL support, HTTP injection, zero false positives | JavaScript |
 | [incident-response-toolkit](https://github.com/VladimirRamirez07/incident-response-toolkit) | SOC platform for real-time alert centralization, incident classification (P1-P4), case assignment, and post-mortem report generation. Built with Python, FastAPI, React, PostgreSQL, WebSockets and Docker. | Python |
 <!--END_SECTION:repos-->
